@@ -143,8 +143,8 @@ Langkah-langkah pada _content-based filtering_:
 #### Rekomendasi
 
 Setelah menghitung kesamaan antarfilm, saya mengurutkan film berdasarkan skor kesamaan tertinggi dan merekomendasikan 10 film teratas yang paling mirip dengan film input. Berikut adalah contoh hasil rekomendasi berbasis _content-based filtering_ untuk film **"Heat"**:
-
-|
+![alt text](https://github.com/oktaagnes/MLT2/blob/main/heat.png?raw=true)
+gambar 1 rekomendasi
 
 ### Collaborative Filtering
 
