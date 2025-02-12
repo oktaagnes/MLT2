@@ -251,7 +251,7 @@ Recall@K mengukur proporsi item relevan yang direkomendasikan oleh sistem dari s
   (Jumlah item yang relevan dalam top K) / (Jumlah total item relevan)
 
 - _Cara Kerja Recall@K_:
-  Recall@K menghitung persentase item relevan yang direkomendasikan dari seluruh item relevan untuk setiap judul. Misalnya, jika ada 20 film yang relevan untuk "Toy Story" dan sistem merekomendasikan 10 di antaranya di posisi teratas, maka Recall@10 akan menunjukkan seberapa banyak item relevan yang ditemukan dari seluruh item relevan.
+  Recall@K menghitung persentase item relevan yang direkomendasikan dari seluruh item relevan untuk setiap judul. Misalnya, jika ada 20 film yang relevan untuk "Heat" dan sistem merekomendasikan 10 di antaranya di posisi teratas, maka Recall@10 akan menunjukkan seberapa banyak item relevan yang ditemukan dari seluruh item relevan.
 
 ### Hasil Evaluasi Proyek Berdasarkan Metrik
 
@@ -263,14 +263,14 @@ Evaluasi sistem rekomendasi ini dilakukan pada beberapa judul film dengan ground
 
 ### 3. Hasil Evaluasi
 
-Berdasarkan hasil evaluasi, berikut adalah performa sistem rekomendasi pada dua film input, _"Toy Story"_ dan _"Jumanji"_:
+Berdasarkan hasil evaluasi, berikut adalah performa sistem rekomendasi pada dua film input, _"Heat"_ dan _"Jumanji"_:
 
 - **Heat**:
 
   - Precision@5: 81.97%
   - Recall@5: 72.21%
 
-  Untuk film _Toy Story_, _precision_ sebesar 74.06% menunjukkan bahwa sebagian besar dari 5 rekomendasi teratas memiliki kesamaan yang cukup kuat dengan film input. _Recall_ sebesar 71.55% menunjukkan bahwa dari seluruh rekomendasi yang relevan, model telah berhasil menangkap sekitar 71% film mirip dalam rekomendasi teratas.
+  Untuk film _Heat_, _precision_ sebesar 74.06% menunjukkan bahwa sebagian besar dari 5 rekomendasi teratas memiliki kesamaan yang cukup kuat dengan film input. _Recall_ sebesar 71.55% menunjukkan bahwa dari seluruh rekomendasi yang relevan, model telah berhasil menangkap sekitar 71% film mirip dalam rekomendasi teratas.
 
 - **Jumanji**:
 
